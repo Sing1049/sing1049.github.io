@@ -1,0 +1,26 @@
+{
+  "name": "midterm",
+  "version": "1.0.0",
+  "description": "* Name: Gurjeet Singh\r * Assignment Type : Product Website\r * Started on Feb 11 2019\r My Mid Term Assignment Working Repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sing1049/MidTerm.git"
+  },
+  "author": "Gurjeet Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sing1049/MidTerm/issues"
+  },
+  "homepage": "https://github.com/Sing1049/MidTerm#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "webpack": "^4.29.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {}
+}
