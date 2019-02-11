@@ -1,26 +1,27 @@
 {
-  "name": "midterm",
+  "name": "mtm6330-week-5",
   "version": "1.0.0",
-  "description": "* Name: Gurjeet Singh\r * Assignment Type : Product Website\r * Started on Feb 11 2019\r My Mid Term Assignment Working Repository",
+  "description": "week 5 working files",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sing1049/MidTerm.git"
+    "url": "git+https://github.com/Sing1049/mtm6330-week-5.git"
   },
   "author": "Gurjeet Singh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sing1049/MidTerm/issues"
+    "url": "https://github.com/Sing1049/mtm6330-week-5/issues"
   },
-  "homepage": "https://github.com/Sing1049/MidTerm#readme",
+  "homepage": "https://github.com/Sing1049/mtm6330-week-5#readme",
   "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.8",
     "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2",
-    "webpack": "^4.29.3",
-    "webpack-dev-server": "^3.1.14"
-  },
-  "dependencies": {}
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2"
+  }
 }
