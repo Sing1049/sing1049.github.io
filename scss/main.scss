@@ -1,1 +1,10 @@
-@import 'variables';
+@import variable;
+
+body{
+  background-color: $grey;
+  color: $blue;
+}
+.navbar-nav ul li {
+  color: $white;
+  background-color: $blue;
+}
