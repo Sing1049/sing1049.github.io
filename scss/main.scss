@@ -33,14 +33,73 @@
   justify-content: flex-start;
   background-color: $blue;
 }
+.dropdown-item{
+  background-color: $blue;
+  color: $white;
+}
+// main
+main{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 80%;
+  border: 2px solid $grey;
+  justify-content: space-around;
+  align-items: center;
+  margin:0 auto;
+  flex-wrap: wrap;
+}
+
+.section{
+  box-sizing: border-box;
+display: flex;
+flex-direction:row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.section h2{
+display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow:2;
+ color:$orange;
+ font-family: 'Luckiest Guy', cursive;
+ font-size: 2.5rem;
+ padding: 2px;
+text-shadow: 2px 2px 2px $grey;
+}
+.section h2:hover{
+text-shadow:2px 2px 2px $orange;
+color: $green;
+}
+.section p{
+  text-align: justify;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section p img{
+padding: 5px;
+// box-sizing: border-box;
+}
 //
 
 @media all and (max-width: 800px) {
   .navigation {
     justify-content: space-around;
   }
+  .section p{
+    flex-wrap: wrap;
+  }
 }
 @media all and (max-width: 600px) {
+.section p{
+  flex-wrap: wrap;
+}
   .navigation {
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap;
