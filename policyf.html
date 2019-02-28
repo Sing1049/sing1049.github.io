@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/min/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+
+  <header>
+    <nav>
+
+  <ul class="navigation">
+    <!-- <a class="navbar-brand navigation" href="#"> -->
+      <li class="navbar-brand navigation" href="#">  <a href="#"><img src="images\webteklogo.png"  class="d-inline-block align-center" alt="webtek graphics logo">
+      </a></li><!-- </a> -->
+  <li><a href="index.html">Home</a></li>
+  <li><a href="#" data-toggle="collapse" data-target="#request_qoute" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">Qoute</a></li>
+  <li><a href="work.html">Work</a></li>
+  <li><a href="blog.html">Blog</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a  href="#" data-toggle="collapse" data-target="#contact_form" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">Contact</a></li>
+  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Help
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item " href="help.html">FAQs</a>
+          <a class="dropdown-item " href="policy.html">Policy</a>
+          <a class="dropdown-item " href="mailto:sing1049@algonquinlive.com">Email</a>
+          <a class="dropdown-item " href="tel:613-727-4723">Call</a>
+        </div>
+      </li>
+</ul>
+</nav>
+</header>
+<div class="pos-f-t">
+  <div class="collapse" id="request_qoute">
+    <div class="bg-light p-4">
+      <form>
+    <div class="form-row align-items-center">
+      <div class="col-auto">
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Name</div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Gurjeet Singh">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Email</div>
+          </div>
+          <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="email@example.com">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+          <label class="form-check-label" for="autoSizingCheck">
+            Sign up for Newsletter
+          </label>
+        </div>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-2">Get Qoute</button>
+      </div>
+    </div>
+  </form>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Form starts here-->
+
+<div class="pos-f-t">
+  <div class="collapse" id="contact_form">
+    <div class="bg-light p-4">
+      <form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="Gurjeet" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Singh" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">Email</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+        </div>
+        <input type="email" class="form-control" id="validationCustomUsername" placeholder="email@example.com" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+        Please enter your email address.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">Mobile Number</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">+1</span>
+        </div>
+        <input type="text" class="form-control" id="validationCustom03" placeholder="613-123-4567" aria-describedby="inputGroupPrepend">
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04">Subject</label>
+
+      <select class="custom-select">
+        <option selected>Select</option>
+        <option value="1">Website</option>
+        <option value="2">Graphic Design</option>
+        <option value="3">LOGO</option>
+        <option value="4">Help</option>
+        <option value="5">Complaint</option>
+        <option value="6">Suggestion</option>
+      </select>
+
+      <input type="text" class="form-control" id="validationCustom04" placeholder="Web/Graphic/LOGO/Help" required>
+      <div class="invalid-feedback">
+      Please provide a valid subject for this form.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom05">Message</label>
+      <input type="text-area" class="form-control" id="validationCustom05" placeholder="I have a issue or problem with ....." required>
+      <div class="invalid-feedback">
+        Please provide a brief information.
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="sign_up">
+      <label class="form-check-label" for="sign_up">
+        Sign up for Newsletter
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="terms_condition" required>
+      <label class="form-check-label" for="terms_condition">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+    </div>
+  </div>
+</div>
+
+
+<a href="policy.html"><div class="btn">Read in English</div></a>
+
+
+<h1>Politique de Confidentialité</h1>
+
+
+<p>Date de prise d'effet: February 28, 2019</p>
+
+
+<p>WebTek Graphics ("nous", "notre", "nos") exploite le site web www.webtekteam.com (ci-après désigné par le terme "Service").</p>
+
+<p>Cette page vous explique nos politiques en matière de collecte, d'utilisation et de communication des données à caractère personnel lorsque vous utilisez notre Service ainsi que les choix qui s'offrent à vous en ce qui concerne ces données.</p>
+
+<p>Nous utilisons vos données pour fournir et améliorer le Service. En utilisant le Service, vous consentez à la collecte et à l'utilisation d'informations conformément à la présente politique. Sauf définition contraire dans la présente Politique de Confidentialité, les termes utilisés dans la présente Politique de Confidentialité ont la même signification que dans nos Conditions Générales qui sont disponibles sur www.webtekteam.com</p>
+
+<h2>Définitions</h2>
+<ul>
+    <li>
+        <p><strong>Service</strong></p>
+                <p>Par Service on entend le site web www.webtekteam.com exploité par WebTek Graphics</p>
+            </li>
+    <li>
+        <p><strong>Données à caractère personnel</strong></p>
+        <p>Données à Caractère Personnel désigne des données concernant un individu vivant qui peut être identifié à partir de ces données (ou à partir de ces données et d'autres informations en notre possession ou susceptibles d'entrer en notre possession).</p>
+    </li>
+    <li>
+        <p><strong>Données d'Utilisation</strong></p>
+        <p>Les Données d'Utilisation sont recueillies automatiquement et sont générées soit par l'utilisation du Service, soit par l'infrastructure du Service proprement dite (par exemple, durée de consultation d'une page).</p>
+    </li>
+    <li>
+        <p><strong>Cookies</strong></p>
+        <p>Les cookies sont de petits fichiers enregistrés sur votre dispositif (ordinateur ou dispositif mobile).</p>
+    </li>
+</ul>
+
+<h2>Collecte et utilisation des données</h2>
+<p>Nous recueillons plusieurs types de données à différentes fins en vue de vous fournir notre Service et de l'améliorer.</p>
+
+<h3>Types de données recueillies</h3>
+
+<h4>Données à Caractère Personnel</h4>
+<p>Lorsque vous utilisez notre Service, il est possible que nous vous demandions de nous fournir certaines données personnelles nominatives qui peuvent servir à vous contacter ou à vous identifier ("Données à Caractère Personnel"). Les données personnelles nominatives peuvent comprendre, mais de manière non limitative:</p>
+
+<ul>
+    <li>Adresse e-mail</li>    <li>Prénom et nom de famille</li>    <li>Numéro de téléphone</li>        <li>Cookies et Données d'Utilisation</li>
+</ul>
+
+<h4>Données d'Utilisation</h4>
+
+<p>Nous pouvons également recueillir des informations relatives au mode d'accès et d'utilisation du Service ("Données d'Utilisation"). Ces Données d'Utilisation peuvent comprendre des informations telles que l'adresse de protocole Internet (c.-à-d. l'adresse IP) de votre ordinateur, le type de navigateur, la version du navigateur, les pages de notre Service que vous consultez, la date et l'heure de votre visite, le temps passé sur ces pages, les identifiants uniques de dispositifs ainsi que d'autres données de diagnostic.</p>
+
+<h4>Suivi et données de cookies</h4>
+<p>Nous avons recours à des cookies et à d'autres technologies de suivi similaires pour effectuer un suivi des activités effectuées dans notre Service, et nous conservons certaines informations.</p>
+<p>Les cookies sont des fichiers à faible volume de données pouvant comporter un identifiant unique anonyme. Les cookies sont envoyés à votre navigateur depuis un site web et sont stockés sur votre dispositif. D'autres technologies de suivi telles que les pixels, les balises et les scripts sont également utilisées pour recueillir et suivre des informations et afin d'améliorer et d'analyser notre Service.</p>
+<p>Vous pouvez demander à votre navigateur de refuser tous les cookies ou de vous avertir lorsqu'un cookie est envoyé. Toutefois, si vous n'acceptez pas les cookies, il se peut que vous ne puissiez pas utiliser certains éléments de notre Service.</p>
+<p>Exemples de cookies que nous utilisons :</p>
+<ul>
+    <li><strong>Cookies de Session.</strong> Nous utilisons des Cookies de Session pour faire fonctionner notre Service.</li>
+    <li><strong>Cookies de Préférences.</strong> Nous utilisons des Cookies de Préférences pour mémoriser vos préférences et vos différents paramètres.</li>
+    <li><strong>Cookies de Sécurité.</strong> Nous utilisons des Cookies de Sécurité pour des raisons de sécurité.</li>
+</ul>
+
+<h2>Utilisation des données</h2>
+
+<p>WebTek Graphics utilise les données recueillies à des fins diverses:</p>
+<ul>
+    <li>Pour fournir et assurer notre Service</li>
+    <li>Pour vous faire part des changements apportés à notre Service</li>
+    <li>Pour vous permettre d'utiliser les fonctions interactives de notre Service quand vous le souhaitez</li>
+    <li>Pour assurer l'assistance client</li>
+    <li>Pour recueillir des données précieuses ou d'analyses qui nous permettront d'améliorer notre Service</li>
+    <li>Pour contrôler l'utilisation de notre Service</li>
+    <li>Pour détecter, prévenir et régler les problèmes techniques</li>
+</ul>
+
+<p>En tant que citoyen européen, en vertu du RGPD, vous disposez de certains droits individuels. Vous pouvez en apprendre plus sur ces droits dans <a href="https://termsfeed.com/blog/gdpr/#Individual_Rights_Under_the_GDPR">le guide GDPR</a>.</p>
+
+<h2>Transfert des données</h2>
+<p>Les informations vous concernant, notamment vos Données à Caractère Personnel, peuvent être transférées de votre région, province, pays, ou autre division territoriale vers des ordinateurs – et stockées sur ces derniers – situés à un endroit où la législation relative à la protection des données diffère de celle du territoire où vous résidez.</p>
+<p>Si vous résidez hors de/du Canada et que vous choisissez de nous communiquer des informations, sachez que nous transférons les données, y compris les Données à Caractère Personnel, vers le/la Canada et que nous les y traitons.</p>
+<p>En acceptant la présente Politique de Confidentialité puis en soumettant ces informations, vous consentez à ce transfert.</p>
+<p>WebTek Graphics prendra toutes les mesures raisonnablement nécessaires pour faire en sorte que vos données soient traitées de manière sécurisée et conformément à la présente Politique de Confidentialité et vos Données à Caractère Personnel ne seront transférées vers aucune organisation ni aucun pays à moins que des contrôles adéquats ne soient en place, notamment en ce qui concerne la sécurité de vos données et d'autres données personnelles.</p>
+
+<h2>Communication de données</h2>
+
+<h3>Exigences légales</h3>
+<p>WebTek Graphics peut communiquer vos Données à Caractère Personnel si elle estime de bonne foi que cela est nécessaire pour:</p>
+<ul>
+    <li>S'acquitter d'une obligation légale</li>
+    <li>Protéger et défendre les droits ou les biens de WebTek Graphics</li>
+    <li>Prévenir d'éventuels actes répréhensibles ou enquêter sur de tels actes dans le cadre du Service </li>
+    <li>Assurer la sécurité personnelle des utilisateurs du Service ou du public</li>
+    <li>Se protéger contre la responsabilité civile</li>
+</ul>
+
+<h2>Sécurité des données</h2>
+<p>La sécurité de vos données nous tient à cœur. Toutefois, n'oubliez pas qu'aucune méthode de transmission de données par Internet ou méthode de stockage électronique n'est sûre à 100 %. Bien que nous nous efforcions d'utiliser des méthodes commercialement acceptables pour protéger vos Données à Caractère Personnel, nous ne pouvons pas leur garantir une sécurité absolue.</p>
+
+<h2>Prestataires de services</h2>
+<p>Nous pouvons faire appel à des sociétés tierces et à des tierces personnes pour faciliter la prestation de notre Service ("Prestataires de Services"), assurer le Service en notre nom, assurer des services liés au Service ou nous aider à analyser la façon dont notre Service est utilisé.</p>
+<p>Ces tiers n'ont accès à vos Données à Caractère Personnel que pour effectuer ces tâches en notre nom et il leur est interdit de les communiquer ou de les utiliser à quelle qu'autre fin. </p>
+
+<h3>Analyses</h3>
+<p>Nous pouvons faire appel à des Prestataires de Services tiers pour surveiller et analyser l'utilisation de notre Service.</p>
+<ul>
+        <li>
+        <p><strong>Piwik / Matomo</strong></p>
+        <p>Piwik or Matomo est un service d'analyse web. Vous pouvez consulter leur politique de confidentialité ici: <a href="https://matomo.org/privacy-policy">https://matomo.org/privacy-policy</a></p>
+    </li>
+            <li>
+        <p><strong>Clicky</strong></p>
+        <p>Clicky est un service d'analyse web. Vous pouvez lire la politique de confidentialité ici: <a href="https://clicky.com/terms">https://clicky.com/terms</a></p>
+    </li>
+            <li>
+        <p><strong>Statcounter</strong></p>
+        <p>Statcounter est un outil d'analyse de trafic web. Vous pouvez lire la politique de confidentialité de Statcounter ici: <a href="https://statcounter.com/about/legal/">https://statcounter.com/about/legal/</a></p>
+    </li>
+        </ul>
+
+
+
+<h2>Liens pointant vers d'autres sites</h2>
+<p>Il se peut que notre Service contienne des liens pointant vers d'autres sites que nous n'exploitons pas. Si vous cliquez sur un lien de tiers, vous serez redirigé vers le site de ce tiers. Nous vous recommandons vivement d'examiner la politique de confidentialité de chacun des sites que vous consultez.</p>
+<p>Nous n'avons aucun contrôle sur le contenu, les politiques ou pratiques de confidentialité des sites ou services de tiers et déclinons toute responsabilité en ce qui les concerne.</p>
+
+
+<h2>Vie privée des enfants</h2>
+<p>Notre Service ne s'adresse pas aux personnes de moins de 18 ans ("Enfants").</p>
+<p>Nous ne recueillons pas sciemment de données personnelles nominatives auprès de personnes de moins de 18 ans. Si vous êtes un parent ou un tuteur et que vous savez que votre Enfant nous a communiqué des Données à Caractère Personnel, veuillez nous contacter. Si nous apprenons que nous avons recueilli des Données à Caractère Personnel auprès d'enfants sans vérifier s'il y a consentement parental, nous faisons le nécessaire pour supprimer ces informations de nos serveurs.</p>
+
+
+<h2>Modifications de la présente Politique de Confidentialité</h2>
+<p>Nous nous réservons le droit d'actualiser notre Politique de Confidentialité de temps à autre. Nous vous informerons de toute modification en publiant la nouvelle Politique de Confidentialité sur cette page.</p>
+<p>Avant que la modification ne prenne effet, nous vous en informerons par e-mail et/ ou en plaçant un avis bien en vue dans notre Service et nous actualiserons la "date de prise d'effet" qui figure en haut de la présente Politique de Confidentialité.</p>
+<p>Nous vous conseillons de consulter la présente Politique de Confidentialité périodiquement pour prendre connaissance de toute modification. Les modifications apportées à la présente Politique de Confidentialité prennent effet lorsqu'elles sont publiées sur cette page.</p>
+
+
+<h2>Nous contacter</h2>
+<p>Pour toute question relative à la présente Politique de Confidentialité, veuillez nous contacter:</p>
+<ul>
+        <li>Par courrier électronique: sing1049@algonquinlive.com</li>
+            <li>En consultant cette page sur notre site web: www.webtekteam.com/contact</li>
+
+        </ul>
+      </main>
+
+        <div class="action"><h4>Let's work on a project</h4>
+      <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+        Start
+      </button>
+      </div>
+
+      <!-- </main> -->
+      </div>
+      <footer>
+      <div class="social">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" style="font-size:36px"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+        <a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-square" style="font-size:36px"></i></a>
+        <a href="https://www.whatsapp.com/" target="_blank"><i class="fa fa-whatsapp" style="font-size:36px"></i></a>
+        <a href="https://www.googleplus.com/" target="_blank"><i class="fa fa-google-plus-square" style="font-size:36px"></i></a>
+      </div>
+      <copyright>
+
+        &copy; copyright - 2019 | <a href="mailto:sing1049@algonquinlive.com">Gurjeet Singh</a>
+      </copyright>
+      </footer>
+
+
+      <!-- bootstrap javascript -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </body>
+      </html>

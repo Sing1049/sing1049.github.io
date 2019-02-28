@@ -122,6 +122,13 @@ footer a:hover{
   color: $green;
 }
 
+.faqs{
+margin: 10px;
+  max-width:150px;
+  text-align: justify;
+  padding: 5px;
+}
+
 @media all and (max-width: 800px) {
   .navigation {
     justify-content: space-around;
