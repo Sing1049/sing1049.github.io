@@ -1,5 +1,7 @@
 @import 'variable';
-
+h1,h2,h3,h4{
+  font-family: 'Luckiest Guy', cursive;
+}
 .navigation {
   list-style: none;
   margin: 0;
@@ -39,55 +41,85 @@
 }
 // main
 main{
-  display: flex;
-  flex-direction: column;
+box-sizing: border-box;
+}
+.card-title{
+  color: $orange;
+}
+
+.action{
+  color: $white;
+  display: block;
+  width: 100%;
   padding: 5px;
-  width: 80%;
-  border: 2px solid $grey;
-  justify-content: space-around;
-  align-items: center;
-  margin:0 auto;
-  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+  background-color: $green;
 }
-
-.section{
-  box-sizing: border-box;
-display: flex;
-flex-direction:row;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
+.card-title{
+  text-align: center;
 }
-.section h2{
-display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-grow:2;
- color:$orange;
- font-family: 'Luckiest Guy', cursive;
- font-size: 2.5rem;
- padding: 2px;
-text-shadow: 2px 2px 2px $grey;
-}
-.section h2:hover{
-text-shadow:2px 2px 2px $orange;
-color: $green;
-}
-.section p{
+.card-body{
   text-align: justify;
-  overflow: hidden;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
-
-.section p img{
-padding: 5px;
-// box-sizing: border-box;
+.action .btn{
+font-family: 'Luckiest Guy', cursive;
+  width: 10%;
+  font-size: 24px;
+}
+#promo{
+  background-color: $blue;
+  display: flex;
+  color: $white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#promo btn-secondary:nth-child(1){
+  background-color: $green;
+  color: $white;
+}
+.btn a{
+  text-decoration: none;
+  color: inherit;
+}
+#promo btn-secondary:nth-child(2){
+  background-color: $orange;
+  color: $white;
 }
 //
-
+footer{
+  padding: 10px;
+  background-color: $grey;
+  color: $white;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+footer a{
+  text-decoration: none;
+  color: inherit;
+}
+footer a:hover{
+  color: $green;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.fa{
+  padding: 2px;
+  color:inherit;
+}
+.fa:hover{
+  color:$orange;
+  text-shadow: 2px 2px 2px $white;
+  // background-color: $white;
+}
+.fa:nth-child(2n):hover{
+  color: $green;
+}
 @media all and (max-width: 800px) {
   .navigation {
     justify-content: space-around;
