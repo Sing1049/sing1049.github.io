@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/min/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+
+  <header>
+    <nav>
+
+  <ul class="navigation">
+    <!-- <a class="navbar-brand navigation" href="#"> -->
+      <li class="navbar-brand navigation" href="#">  <a href="#"><img src="images\webteklogo.png"  class="d-inline-block align-center" alt="webtek graphics logo">
+      </a></li><!-- </a> -->
+  <li><a href="index.html">Home</a></li>
+  <li><a href="#" data-toggle="collapse" data-target="#request_qoute" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">Qoute</a></li>
+  <li><a href="work.html">Work</a></li>
+  <li><a href="blog.html">Blog</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a  href="#" data-toggle="collapse" data-target="#contact_form" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">Contact</a></li>
+  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Help
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item " href="help.html">FAQs</a>
+          <a class="dropdown-item " href="policy.html">Policy</a>
+          <a class="dropdown-item " href="mailto:sing1049@algonquinlive.com">Email</a>
+          <a class="dropdown-item " href="tel:613-727-4723">Call</a>
+        </div>
+      </li>
+</ul>
+</nav>
+</header>
+<div class="pos-f-t">
+  <div class="collapse" id="request_qoute">
+    <div class="bg-light p-4">
+      <form>
+    <div class="form-row align-items-center">
+      <div class="col-auto">
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Name</div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Gurjeet Singh">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Email</div>
+          </div>
+          <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="email@example.com">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+          <label class="form-check-label" for="autoSizingCheck">
+            Sign up for Newsletter
+          </label>
+        </div>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-2">Get Qoute</button>
+      </div>
+    </div>
+  </form>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Form starts here-->
+
+<div class="pos-f-t">
+  <div class="collapse" id="contact_form">
+    <div class="bg-light p-4">
+      <form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="Gurjeet" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Singh" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">Email</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+        </div>
+        <input type="email" class="form-control" id="validationCustomUsername" placeholder="email@example.com" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+        Please enter your email address.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">Mobile Number</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">+1</span>
+        </div>
+        <input type="text" class="form-control" id="validationCustom03" placeholder="613-123-4567" aria-describedby="inputGroupPrepend">
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04">Subject</label>
+
+      <select class="custom-select">
+        <option selected>Select</option>
+        <option value="1">Website</option>
+        <option value="2">Graphic Design</option>
+        <option value="3">LOGO</option>
+        <option value="4">Help</option>
+        <option value="5">Complaint</option>
+        <option value="6">Suggestion</option>
+      </select>
+
+      <input type="text" class="form-control" id="validationCustom04" placeholder="Web/Graphic/LOGO/Help" required>
+      <div class="invalid-feedback">
+      Please provide a valid subject for this form.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom05">Message</label>
+      <input type="text-area" class="form-control" id="validationCustom05" placeholder="I have a issue or problem with ....." required>
+      <div class="invalid-feedback">
+        Please provide a brief information.
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="sign_up">
+      <label class="form-check-label" for="sign_up">
+        Sign up for Newsletter
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="terms_condition" required>
+      <label class="form-check-label" for="terms_condition">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Form Ends here -->
+<banner>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images\slides\1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images\slides\1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images\slides\4.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</banner>
+<!-- <main> -->
+<div class="card" id="promo">
+
+  <div class="card-body">
+    <h2>Design & Develop</h2>
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-secondary"><h5><a href="#Graphic_Design">LOGO Design</a></h5></button>
+      <button type="button" class="btn btn-secondary"><h5><a href="#Web_Design">Website</a></h5></button>
+    </div>
+  </div>
+</div>
+
+
+  <div class="card-deck">
+    <div class="card">
+      <img src="images\slides\Hippo.jpg" class="card-img-top" alt="...">
+      <div class="card-body" id="Graphic_Design">
+        <h2 class="card-title">Graphic Design</h2>
+        <p class="card-text">
+          We offer a full scope of Design Services. From Branding, Graphic Design and illustration. We can create Brand identities or offer Visual communication like Graphic Design services benefits in explicit regions to encourage your business.</p>
+          <div class="collapse" id="collapsegraphic">
+            Making extraordinary visuals to make you and your brand emerge from the market, and especially – your rivals.
+
+            All our colleagues here at WebTek Graphics comprehend Graphic Design and Web Design. This is one of a kind, we are basically similar to Unicorns. Our Co-Founders had the ability to spot ability through their systems and make an extraordinary group who can offer an extensive variety of administrations. We can take a new company with nothing to a completely working brand on the web and disconnected. Or on the other hand, we can patch up a current brand, or take a fruitful brand to the following dimension. Regardless of whether that be a logo configuration, full brand rules, fine art making for promoting and computerized advertising, or bundling plan – we can do everything.
+          </div>
+      </div>
+
+      <div class="card-footer">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsegraphic" aria-expanded="false" aria-controls="collapseExample">
+            Read More
+          </button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images\slides\4.jpg" class="card-img-top" alt="Web Design service at webTek Graphics ">
+      <div class="card-body">
+        <h2 class="card-title" id="Web_Design">Web Design</h2>
+        <p class="card-text">UI/UX, Wireframes, Research and Development – we understand all areas of Web Design. We can take a start-up business with nothing to a fully functioning brand online and offline.</p>
+        <div class="collapse" id="collapsewebsite">
+          We can redesign an existing brand or take a successful brand to the next level. We offer web design services to all types of businesses, not only in Canada and India but around the world. Our talented and creative web design team will work alongside you in collaboration to create a site that reflects your brand, talks to your audience with meaning and personality, and has great functionality across latest devices.
+Whether it’s updating a blog, shop opening times, restaurant menus, team profiles or adding products to your website. Our CMS will handle it no problem. There are no limitations with what we can create – as we are bespoke web developers and work with clients of all natures including startups, medium sized businesses and large global organizations.
+        </div>
+      </div>
+      <div class="card-footer">
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsewebsite" aria-expanded="false" aria-controls="collapseExample">
+                    Read More
+                  </button>
+    </div>
+  </div>
+
+<div class="action"><h4>Let's work on a project</h4>
+<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Start
+</button>
+</div>
+
+<!-- </main> -->
+</div>
+<footer>
+<div class="social">
+  <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" style="font-size:36px"></i></a>
+  <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+  <a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-square" style="font-size:36px"></i></a>
+  <a href="https://www.whatsapp.com/" target="_blank"><i class="fa fa-whatsapp" style="font-size:36px"></i></a>
+  <a href="https://www.googleplus.com/" target="_blank"><i class="fa fa-google-plus-square" style="font-size:36px"></i></a>
+</div>
+<copyright>
+
+  &copy; copyright - 2019 | <a href="mailto:sing1049@algonquinlive.com">Gurjeet Singh</a>
+</copyright>
+</footer>
+
+
+<!-- bootstrap javascript -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

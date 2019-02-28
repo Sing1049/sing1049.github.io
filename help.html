@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/min/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+
+  <header>
+    <nav>
+
+  <ul class="navigation">
+    <!-- <a class="navbar-brand navigation" href="#"> -->
+      <li class="navbar-brand navigation" href="#">  <a href="#"><img src="images\webteklogo.png"  class="d-inline-block align-center" alt="webtek graphics logo">
+      </a></li><!-- </a> -->
+  <li><a href="index.html">Home</a></li>
+  <li><a href="#" data-toggle="collapse" data-target="#request_qoute" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">Qoute</a></li>
+  <li><a href="work.html">Work</a></li>
+  <li><a href="blog.html">Blog</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a  href="#" data-toggle="collapse" data-target="#contact_form" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">Contact</a></li>
+  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Help
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item " href="help.html">FAQs</a>
+          <a class="dropdown-item " href="policy.html">Policy</a>
+          <a class="dropdown-item " href="mailto:sing1049@algonquinlive.com">Email</a>
+          <a class="dropdown-item " href="tel:613-727-4723">Call</a>
+        </div>
+      </li>
+</ul>
+</nav>
+</header>
+<div class="pos-f-t">
+  <div class="collapse" id="request_qoute">
+    <div class="bg-light p-4">
+      <form>
+    <div class="form-row align-items-center">
+      <div class="col-auto">
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Name</div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Gurjeet Singh">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Email</div>
+          </div>
+          <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="email@example.com">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+          <label class="form-check-label" for="autoSizingCheck">
+            Sign up for Newsletter
+          </label>
+        </div>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-2">Get Qoute</button>
+      </div>
+    </div>
+  </form>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Form starts here-->
+
+<div class="pos-f-t">
+  <div class="collapse" id="contact_form">
+    <div class="bg-light p-4">
+      <form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="Gurjeet" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Singh" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">Email</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+        </div>
+        <input type="email" class="form-control" id="validationCustomUsername" placeholder="email@example.com" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+        Please enter your email address.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">Mobile Number</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">+1</span>
+        </div>
+        <input type="text" class="form-control" id="validationCustom03" placeholder="613-123-4567" aria-describedby="inputGroupPrepend">
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04">Subject</label>
+
+      <select class="custom-select">
+        <option selected>Select</option>
+        <option value="1">Website</option>
+        <option value="2">Graphic Design</option>
+        <option value="3">LOGO</option>
+        <option value="4">Help</option>
+        <option value="5">Complaint</option>
+        <option value="6">Suggestion</option>
+      </select>
+
+      <input type="text" class="form-control" id="validationCustom04" placeholder="Web/Graphic/LOGO/Help" required>
+      <div class="invalid-feedback">
+      Please provide a valid subject for this form.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom05">Message</label>
+      <input type="text-area" class="form-control" id="validationCustom05" placeholder="I have a issue or problem with ....." required>
+      <div class="invalid-feedback">
+        Please provide a brief information.
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="sign_up">
+      <label class="form-check-label" for="sign_up">
+        Sign up for Newsletter
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="terms_condition" required>
+      <label class="form-check-label" for="terms_condition">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Form Ends here -->
+<main>
+  <p class="faqs">
+    <h2>Frequently Asked Questions (FAQs)</h2>
+Cost and Payment
+Q. How much does a new website cost?
+
+There are many aspects that factor into the cost from concept through implementation. These costs can vary widely depending on what your project needs are and how long we estimate that it will take to complete the project. Please contact us to get a cost estimate for your website work.
+
+Q. Do you require a deposit?
+
+Yes, we do. We ask our clients for a 50% deposit on all projects, to be paid before work begins on the website.
+
+Q. Do you accept payment by credit card?
+
+Yes, we do. Visa, Mastercard, American Express, and Discover are accepted.
+
+Timeframe
+Q. How long will it take for you to finish my web design project?
+
+Like anything creative, designing a great website takes time. It can take from a few weeks to a few months (or more) to completely design and launch the new website, depending on the project. In general though, how soon your website work can be done done depends on a number of things, such as:
+
+The size of your website
+The complexity of your design
+Any advanced features you need
+When your content is ready
+Our current client design schedule
+Your timely feedback and input on our work
+Web Design Process
+Q. Do you provide mockups?
+
+Yes, we do. We provide full-color mockups to our clients for every project we work on once a contract has been signed. These mockups are the first step in our design process. Once we show them to you and come to an agreement about the website’s design, they’ll be the basis for your new website.
+
+Q. How many revisions can I make to the design?
+
+We try to make the most informed decisions when it comes to creating a website design, which is why we really get to know you, your market, and your audience before we prepare mockups.
+
+Once the mockups are agreed upon, we’ll start actually building your website for you to see. At that point, we ask that there be no more than one (1) major revision to the design. Naturally you’ll have smaller changes and additions, but at that point, we consider the overall structure and design of the website to be set.
+
+If you request too many changes to your design, or if you request changes to the design after the entire site has been formatted with the template, you will incur more charges.
+
+Communication
+Q: Where are you located?
+
+We are located in Raleigh, North Carolina, in the greater Triangle area of North Carolina (Raleigh / Durham / Cary / Chapel Hill / Apex).
+
+Q. Do I need to hire a local Raleigh-area web designer?
+
+Unlike other businesses, whether or not your web designer is in the area makes little difference. All the information we need to design your website can easily be communicated through email, over the phone, etc.
+
+Even with our local Raleigh-area clients, we only meet face-to-face on an occasional basis; most of the correspondence takes place by phone and email.
+
+The most important point is that we maintain a close working relationship with all of our clients, whether you are in the local Raleigh area or not. This way, our clients can be assured that their website will still be of the highest quality.
+
+We’ve worked with clients who are local in Raleigh, out of state, and out of the country, and have never had any problems completing a project. No matter where they’re located, we try to maintain a close working relationship.
+
+Server Setup
+Q. Do you provide website hosting?
+
+No, we don’t. If you don’t already have a host, we’ve worked with a number of hosting providers and can give you some recommendations if don’t have a hosting provider already.
+
+Q. Do you register domain names?
+
+No, we don’t. We’ll be more than happy to give you some advice on what your URL should be and give you some recommendations for where you can register a new domain.
+
+Website Maintenance
+Q. Can I see how many visitors I have to my website?
+
+Yes, you can. We can set up a free Google Analytics account for you, which will automatically record information about your website’s visitors.
+
+Q. Can I update my own website, or will you do it?
+
+We encourage our clients to maintain their own websites once they’re launched. All of our websites are built using WordPress, so that you can update it yourself. We’ll make sure you know how to use WordPress before we turn over the website to you.
+
+Generally, we expect there to be minor updates within the first 30 days after launch, so those are free. Updates after that are $90/hour, although we won’t nickel and dime you on updates – if you need something simple like an address or phone number changed, we don’t charge you.
+  </p>
+</main>
+
+  <div class="action"><h4>Let's work on a project</h4>
+<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Start
+</button>
+</div>
+
+<!-- </main> -->
+</div>
+<footer>
+<div class="social">
+  <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" style="font-size:36px"></i></a>
+  <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+  <a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-square" style="font-size:36px"></i></a>
+  <a href="https://www.whatsapp.com/" target="_blank"><i class="fa fa-whatsapp" style="font-size:36px"></i></a>
+  <a href="https://www.googleplus.com/" target="_blank"><i class="fa fa-google-plus-square" style="font-size:36px"></i></a>
+</div>
+<copyright>
+
+  &copy; copyright - 2019 | <a href="mailto:sing1049@algonquinlive.com">Gurjeet Singh</a>
+</copyright>
+</footer>
+
+
+<!-- bootstrap javascript -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
