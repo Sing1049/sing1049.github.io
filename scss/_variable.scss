@@ -1,3 +1,23 @@
+$fonts-text: Tahoma, Helvetica, Arial, sans-serif;
+$font-headings: "Times New Roman", serif;
+$asphalt: #34495e;
+$clouds: #ecf0f1;
+
+@mixin liftUp($height:high){
+  @if $height == high{
+    box-shadow: 1px 2px 5px 2px black;
+  }@else if $height == higher{
+    box-shadow: 2px 4px 10px 2px black;
+  }@else if $height  == highest{
+    box-shadow: 4px 8px 30px 2px black;
+  }
+}
+
+// Setting a default vlaue, this can be overwritten anywhere in our scss.
+$text-font-size: 18px !default;
+/* Setting a variable, we will use this variable with interpolation.
+ Meaning in combination with other information. */
+$nav-border-side: right;
 $fonts-text: 'Titan One', cursive;
 $font-headings: 'Titan One', cursive;
 
