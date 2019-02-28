@@ -108,6 +108,7 @@ footer a:hover{
   text-decoration: underline;
   font-weight: bold;
 }
+
 .fa{
   padding: 2px;
   color:inherit;
@@ -120,6 +121,7 @@ footer a:hover{
 .fa:nth-child(2n):hover{
   color: $green;
 }
+
 @media all and (max-width: 800px) {
   .navigation {
     justify-content: space-around;
